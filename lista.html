@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECA VISTUAL</title>
+<style>
+     body {
+     background-color: bisque; 
+     }
+      .quadro {
+      width: 500px;               /* Largura do quadro */
+      height: 480px;              /* Altura do quadro */
+      background-color: rgb(243, 239, 239);    /* Cor de fundo branca */
+      border: 2px solid #0b0101;     /* Borda escura */
+      padding: 20px;              /* Espaço interno */
+      margin: 30px auto;          /* Centraliza na página */
+      border-radius: 15px;        /* Bordas arredondadas */
+      box-shadow: 2px 2px 10px rgba(16, 14, 14, 0.2); /* Sombra leve */
+    }
+</style>
+
+<link rel="stylesheet" href="style.css"/> 
+
+</head>
+
+<body>
+<h1 class="titulo">📚Biblioteca Vistual📚</h1>
+<div class="quadro">
+
+<h1 class="titulo">Livros Cadastrados</h1>
+<div id="listaLivros"></div>
+
+<button class="botaovoltar" 
+onclick="window.location.href='paginaprincipal.html'">voltar</button>
+
+<input class="digitetexto" id="tituloLivro" type="text" 
+placeholder="Digite o titulo">
+
+
+<button class="botaoabrirlivro" id="abrirLivros">Abrir Livro</button>
+
+<button class="botaomostrarlista" id="mostrarLista"
+>Mostrar Lista</button>
+
+<div id="mensagem"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECA VIRTUAL</title>
+<style>
+     body {
+     background-color: bisque; 
+     }
+      .quadro {
+      width: 500px;               /* Largura do quadro */
+      height: 480px;              /* Altura do quadro */
+      background-color: rgb(243, 239, 239);    /* Cor de fundo branca */
+      border: 2px solid #0c0707;     /* Borda escura */
+      padding: 20px;              /* Espaço interno */
+      margin: 30px auto;          /* Centraliza na página */
+      border-radius: 15px;        /* Bordas arredondadas */
+      box-shadow: 2px 2px 10px rgba(5, 0, 0, 0.2); /* Sombra leve */
+    }
+</style>
+
+
+<link rel="stylesheet" href="style.css"/> 
+</head>
+<h1 class="titulo">📚Biblioteca Virtual📚</h1>
+<body>
+
+<div class="quadro">
+
+<div class="titulo">
+<h2>Livros Disponiveis</h2>
+<li type="square"><strong>TERROR</strong></li>
+<li>bruxa de blair</li>
+<li type="square"><strong>ACAO</strong></li>
+<li>o sobrinho do mago</li>
+<li type="square"><strong>ROMANCE</strong></li>
+<li>antes de voce</li>
+<li type="square"><strong>FICCAOCIENTIFICA</strong></li>
+<li>o jogo do exterminador</li>
+<li type="square"><strong>DRAMA</strong></li>
+<li>a menina que roubava livros</li>
+<li type="square"><strong>COMEDIA</strong></li>
+<li>as aventuras de tom sawyer</li>
+</div>
+
+<button class="botaovoltar2" onclick="window.location.href='paginaprincipal.html'">Voltar</button>
+
+
+<input class="digitetexto" id="respostatitulo" type="text" placeholder="Digite o titulo do livro">
+
+<button class="botaoadicionalivros2" onclick="adicionarlivros()">Adicionar Livro</button>
+
+<div id="mensagem"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+.titulo{
+text-align: center;
+background-color: rgb(236, 240, 244);
+border: 2px solid #0b0a0a; 
+border-radius: 50px;
+}
+
+.botaoadicionalivros{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaoadicionalivros:hover{
+background-color: rgb(239, 220, 171);
+}
+
+.botaolistalivros{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */ 
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaolistalivros:hover{
+background-color: rgb(239, 220, 171);
+}
+.botaoexcluir{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaoexcluir:hover{
+background-color: rgb(239, 220, 171);
+}
+
+.botaobuscar{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaobuscar:hover{
+background-color: rgb(239, 220, 171);
+}
+
+.botaolistafavoritos{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaolistafavoritos:hover{
+background-color: rgb(239, 220, 171);
+}
+
+.botaoadicionarfavoritos{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaoadicionarfavoritos:hover{
+background-color: rgb(239, 220, 171);
+}
+
+.removelivrosfavoritos{
+width: 300px;   /* largura fixa */
+height: 55px;   /* altura fixa */
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 11px 20px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.removelivrosfavoritos:hover{
+background-color: rgb(239, 220, 171);  
+}
+
+.botaocentro{
+text-align: center;
+}
+
+.botaovoltar{
+border: 2px solid #170707; 
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 10px 10px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaovoltar:hover{
+background-color: rgb(239, 220, 171);  
+}
+
+.botaoabrirlivro{
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 10px 10px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaoabrirlivro:hover{
+background-color: rgb(239, 220, 171);   
+}
+
+.botaomostrarlista{
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 10px 10px;
+border: 2px solid #170707; 
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaomostrarlista:hover{
+background-color: rgb(239, 220, 171);
+}
+
+
+.digitetexto{
+  width: 200px;
+  padding: 1px 1px;
+  font-size: 16px;
+  border: 2px solid #d6d6c3;        /* borda azul */
+  border-radius: 10px;              /* cantos arredondados */
+  outline: none;                    /* remove contorno ao clicar */
+  transition: 0.3s;                 /* animação suave */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* sombra leve */
+}
+.digitetexto:hover{
+  border-color: #d6c570;            /* muda a cor ao focar */
+  box-shadow: 0 0 10px rgba(3, 8, 13, 0.5); /* luz azul ao redor */
+}
+
+.botaovoltar2{
+border: 2px solid #170707; 
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 5px 10px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaovoltar2:hover{
+background-color: rgb(239, 220, 171); 
+}
+
+.botaoadicionalivros2{
+margin-top: 21px;
+border: 2px solid #170707; 
+background-color:rgb(202, 165, 97);
+color:white;
+padding: 5px 10px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+transition: backgrond-color 0.3s;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.botaoadicionalivros2:hover{
+background-color: rgb(239, 220, 171);  
+}
